@@ -1,0 +1,9 @@
+name: Trabajo 1 Bernardo
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print message
+      run: echo "Hello World" 
+  

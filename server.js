@@ -11,5 +11,4 @@ app.get(["/", "/:name"], (req, res) => {
     res.send(greeting);
   }
 });
-
 app.listen(port, () => console.log(`Hello Node app listening on port ${port}!`));
